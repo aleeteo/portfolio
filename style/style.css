@@ -55,14 +55,13 @@ li {
     margin: 1em;
 }
 
-a {
-    text-decoration: none;
-    color: whitesmoke;
+.A-F {
+    display: flex;
+    justify-content: space-between;
 }
 
-a:hover{
-    color: rgb(221, 202, 30);
-}
+
+
 
 footer {
     border-top: 0.2em dotted whitesmoke;
@@ -84,3 +83,19 @@ footer {
 .mail > * {
     margin: 0.5em 1em;
 }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(221, 202, 30);
+}
+
+@media only screen and (min-width: 800px) {
+    .bg-img {
+        background-image: url("/images/P1130471.jpg");
+    }
+}
+
